@@ -5,7 +5,8 @@
  }
 /* Al body diamo uno sfondo grigio */
 body{
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.651);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Al interno del header sistemiamo la posizione del logo e il nome */
 header{
@@ -13,10 +14,35 @@ header{
 }
  header h1{
     display: inline-block;
-    font-family: Verdana, sans-serif;
     vertical-align:middle;
  }
  header img{
     padding: 10px 10px;
     vertical-align:middle;
+ }
+ /* Al interno del nav sistemiamo il container e diamo lo stile ai due button */
+ nav .container_nav{
+    width:1100px;
+    margin: auto;
+    height: 50px;
+    background-color: white;
+    margin-top: 30px;
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+ }
+ nav .container_nav #add_task{
+    background-color: rgba(0, 162, 255, 0.829);
+    padding: 5px;
+    margin: 13px 0 0 50px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+ }
+ nav .container_nav #add_section{
+    padding: 3px;
+    color: rgba(128, 128, 128, 0.50);
+    border-radius: 5px;
+    border: 2px solid  rgba(128, 128, 128, 0.50);;
+    background-color: rgba(255, 255, 255, 0);
  }
