@@ -3,3 +3,20 @@
     margin: 0;
     box-sizing: border-box;
  }
+/* Al body diamo uno sfondo grigio */
+body{
+    background-color: lightgray;
+}
+/* Al interno del header sistemiamo la posizione del logo e il nome */
+header{
+    background-color: white;
+}
+ header h1{
+    display: inline-block;
+    font-family: Verdana, sans-serif;
+    vertical-align:middle;
+ }
+ header img{
+    padding: 10px 10px;
+    vertical-align:middle;
+ }
